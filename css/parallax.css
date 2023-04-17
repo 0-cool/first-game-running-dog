@@ -1,0 +1,25 @@
+
+body{
+    background-color: black;
+}
+#canvas1{
+    border: 3px solid white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 700px;
+}
+.container{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+    width: 800px;
+    font-size: 2rem;
+    color: white;
+}
+.container input{
+    width: 100%;
+}

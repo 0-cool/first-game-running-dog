@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spirte Animations</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- ! skip animations <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/parallax.css">
 </head>
 <body>
     
-    <canvas id="canvas1">
-        
-    </canvas>
+    <canvas id="canvas1"></canvas>
+    <div class="container">
+        <p>Game Speed: <span id="showGameSpeed"></span></p>
+        <input type="range" min="0" max="20" value="5" class="slider" id="slider">
+    </div>
+    <!--
     <div class="controls">
         <select name="animations" id="animations">
             <option value="idle">idle</option>
@@ -26,7 +30,7 @@
             <option value="getHit">getHit</option>
         </select>
     </div>
-    <script src="js/animations.js"></script>
+     ! skip animations <script src="js/animations.js"></script> -->
     <script src="js/parallax.js"></script>
-</body>
+</script>
 </html>

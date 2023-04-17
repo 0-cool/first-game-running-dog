@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 #canvas1{
     border: 5px solid black;
     position: absolute;
@@ -6,8 +9,7 @@
     transform: translate(-50%, -50%);
     width: 600px;
     height: 600px;
-}
-
+} 
 .controls{
     position: absolute;
     z-index: 10;
